@@ -13,7 +13,7 @@ import {
   Trash2
 } from "lucide-react";
 import { Link } from "react-router-dom";
-import fishLogo from "@/assets/fish-logo.png";
+import fishLogo from "@/assets/fish-logo-clean.png";
 
 interface ChatHistory {
   id: string;

@@ -5,7 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Search, Eye, EyeOff, ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
-import fishLogo from "@/assets/fish-logo.png";
+import fishLogo from "@/assets/fish-logo-clean.png";
 
 const Login = () => {
   const [showPassword, setShowPassword] = useState(false);

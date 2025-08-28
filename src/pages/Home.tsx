@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { ArrowRight, Search, Zap, Globe, MessageSquare } from "lucide-react";
 import { Link } from "react-router-dom";
-import fishLogo from "@/assets/fish-logo.png";
+import fishLogo from "@/assets/fish-logo-clean.png";
 
 const Home = () => {
   const features = [
