@@ -2,7 +2,6 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { ArrowRight, Search, Zap, Globe, MessageSquare } from "lucide-react";
 import { Link } from "react-router-dom";
-import fishLogo from "@/assets/fish-logo-clean.png";
 
 const Home = () => {
   const features = [
@@ -34,7 +33,9 @@ const Home = () => {
       <header className="border-b border-border bg-card/50 backdrop-blur-xl sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center space-x-2">
-            <img src={fishLogo} alt="Fista Logo" className="w-8 h-8" />
+            <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
+              <span className="text-white font-bold text-lg">@</span>
+            </div>
             <span className="text-xl font-bold bg-gradient-primary bg-clip-text text-transparent">
               Fista
             </span>

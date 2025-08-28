@@ -13,7 +13,6 @@ import {
   Trash2
 } from "lucide-react";
 import { Link } from "react-router-dom";
-import fishLogo from "@/assets/fish-logo-clean.png";
 
 interface ChatHistory {
   id: string;
@@ -64,7 +63,9 @@ const ChatSidebar = ({ isCollapsed, onToggleCollapse }: ChatSidebarProps) => {
         <div className="flex items-center justify-between">
           {!isCollapsed && (
             <Link to="/" className="flex items-center space-x-2">
-              <img src={fishLogo} alt="Fista Logo" className="w-8 h-8" />
+              <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
+                <span className="text-white font-bold text-lg">@</span>
+              </div>
               <span className="text-lg font-bold bg-gradient-primary bg-clip-text text-transparent">
                 Fista
               </span>

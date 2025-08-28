@@ -5,7 +5,6 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Search, Eye, EyeOff, ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
-import fishLogo from "@/assets/fish-logo-clean.png";
 
 const Login = () => {
   const [showPassword, setShowPassword] = useState(false);
@@ -34,8 +33,8 @@ const Login = () => {
 
         <Card className="bg-card/50 backdrop-blur-sm border-border shadow-card">
           <CardHeader className="text-center space-y-4">
-            <div className="mx-auto w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center p-2">
-              <img src={fishLogo} alt="Fista Logo" className="w-full h-full object-contain" />
+            <div className="mx-auto w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center">
+              <span className="text-white font-bold text-2xl">@</span>
             </div>
             <CardTitle className="text-2xl font-bold">Welcome Back</CardTitle>
             <CardDescription className="text-muted-foreground">
