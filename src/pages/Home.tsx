@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { ArrowRight, Search, Zap, Globe, MessageSquare } from "lucide-react";
 import { Link } from "react-router-dom";
+import fishLogo from "@/assets/fish-logo.png";
 
 const Home = () => {
   const features = [
@@ -33,11 +34,9 @@ const Home = () => {
       <header className="border-b border-border bg-card/50 backdrop-blur-xl sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
-              <Search className="w-5 h-5 text-white" />
-            </div>
+            <img src={fishLogo} alt="Fista Logo" className="w-8 h-8" />
             <span className="text-xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-              DeepSearch
+              Fista
             </span>
           </div>
           <div className="flex items-center space-x-4">
@@ -63,7 +62,7 @@ const Home = () => {
               Search Agent
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Experience the future of search with our AI-powered agent that understands, 
+              Experience the future of search with Fista AI agent that understands, 
               analyzes, and delivers exactly what you need.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -96,7 +95,7 @@ const Home = () => {
               Powerful Features
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Our deep search agent combines cutting-edge AI with intuitive design 
+              Fista combines cutting-edge AI with intuitive design 
               to deliver unparalleled search experiences.
             </p>
           </div>
@@ -144,7 +143,7 @@ const Home = () => {
       {/* Footer */}
       <footer className="border-t border-border py-8 px-4">
         <div className="container mx-auto text-center text-muted-foreground">
-          <p>&copy; 2024 DeepSearch. Powered by AI.</p>
+          <p>&copy; 2024 Fista. Powered by AI.</p>
         </div>
       </footer>
     </div>

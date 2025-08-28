@@ -29,7 +29,7 @@ const ChatInterface = () => {
     {
       id: "1",
       role: "agent",
-      content: "Hello! I'm your Deep Search Agent. I can help you find comprehensive information on any topic using advanced AI-powered search capabilities. What would you like to explore today?",
+      content: "Hello! I'm Fista, your AI Search Agent. I can help you find comprehensive information on any topic using advanced AI-powered search capabilities. What would you like to explore today?",
       timestamp: new Date(),
     }
   ]);
@@ -144,7 +144,7 @@ const ChatInterface = () => {
       <div className="border-b border-border p-4">
         <div className="flex items-center justify-between">
           <div>
-            <h1 className="text-xl font-semibold">Deep Search Agent</h1>
+            <h1 className="text-xl font-semibold">Fista AI Agent</h1>
             <p className="text-sm text-muted-foreground">AI-powered comprehensive search</p>
           </div>
           <Button variant="ghost" size="sm">
